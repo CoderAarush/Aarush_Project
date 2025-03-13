@@ -26,17 +26,17 @@ def matrix_math():
     bytes = int(input())
     if bytes == 1:
         say("What do you wish to calculate if 4 standard operations- 1, algebra - 2 if hcf - 3 if square root 4")
-        aarush_is_a_businessman = int(input())
-        if aarush_is_a_businessman == 1:
+        inp = int(input())
+        if inp == 1:
             say("What do you whish to calculate if addition 1 if subtraction 2 if multiplication 3 else 4")
-            criminal = int(input())
-            if criminal == 1:
+            op = int(input())
+            if op == 1:
                 say('Please enter two numbers in two seperate lines:')
                 num1 = int(input())
                 num2 = int(input())
                 sum = num1 + num2
                 print (sum)
-            elif criminal == 2:
+            elif op == 2:
                 say('Please enter two numbers in two seperate lines:')
                 num1 = int(input())
                 num2 = int(input())
@@ -48,7 +48,7 @@ def matrix_math():
                     sme = num1
                 sum = gre - sme
                 print (sum)
-            elif criminal == 3:
+            elif op == 3:
                 say("If you  wish to calculate race to the power - 1, else 2")
                 SBK_KILLS_PEOPLE_IN_DOZENS_A_YEAR = int(input())
                 if SBK_KILLS_PEOPLE_IN_DOZENS_A_YEAR == 1:
@@ -76,77 +76,77 @@ def matrix_math():
                     s = gTTS2
                 gr = gre / s
                 print(gr)
-        elif aarush_is_a_businessman == 2:
+        elif inp == 2:
             say("Please enter values of variables in the order you wish")
-            conspiracy2 = int(input())
+            c2 = int(input())
             shut_up2 = int(input())
             just_get_out_of_here_2 = int(input())
             say(
                 "what operations do you whish to perform if addition - 1 if subtraction - 2 if multipliction - 3 if division - 4")
             abbbbbbbabababababababa = int(input())
             if abbbbbbbabababababababa == 1:
-                then = conspiracy2 + just_get_out_of_here_2 + shut_up2
+                then = c2 + just_get_out_of_here_2 + shut_up2
                 print (then)
             elif abbbbbbbabababababababa == 2:
-                if conspiracy2 > just_get_out_of_here_2 > shut_up2:
-                    gre = conspiracy2
+                if c2 > just_get_out_of_here_2 > shut_up2:
+                    gre = c2
                     gre2 = just_get_out_of_here_2
                     s = shut_up2
-                elif conspiracy2 > shut_up2 > just_get_out_of_here_2:
+                elif c2 > shut_up2 > just_get_out_of_here_2:
                     gre = conspiracy2
                     gre2 = shut_up2
                     s = just_get_out_of_here_2
-                elif shut_up2 > conspiracy2 > just_get_out_of_here_2:
+                elif shut_up2 > c2 > just_get_out_of_here_2:
                     gre = shut_up2
                     s = just_get_out_of_here_2
-                    gre2 = conspiracy2
-                elif shut_up2 > just_get_out_of_here_2 > conspiracy2:
+                    gre2 = c2
+                elif shut_up2 > just_get_out_of_here_2 > c2:
                     gre = shut_up2
-                    s = conspiracy2
+                    s = c2
                     gre2 = just_get_out_of_here_2
-                elif just_get_out_of_here_2 > conspiracy2 > shut_up2:
+                elif just_get_out_of_here_2 > c2 > shut_up2:
                     gre = just_get_out_of_here_2
                     s = shut_up2
                     gre2 = conspiracy2
                 else:
                     gre = just_get_out_of_here_2
-                    s = conspiracy2
+                    s = c2
                     gre2 = shut_up2
                 then = gre - gre2 - s
                 print (then)
             elif abbbbbbbabababababababa == 3:
-                then = conspiracy2 * just_get_out_of_here_2 * shut_up2
+                then = c2 * just_get_out_of_here_2 * shut_up2
                 print (then)
             else:
-                if conspiracy2 > just_get_out_of_here_2 > shut_up2:
-                    gre = conspiracy2
+                if c2 > just_get_out_of_here_2 > shut_up2:
+                    gre = c2
                     gre2 = just_get_out_of_here_2
                     s = shut_up2
-                elif conspiracy2 > shut_up2 > just_get_out_of_here_2:
-                    gre = conspiracy2
+                elif c2 > shut_up2 > just_get_out_of_here_2:
+                    gre = c2
                     gre2 = shut_up2
                     s = just_get_out_of_here_2
-                elif shut_up2 > conspiracy2 > just_get_out_of_here_2:
+                elif shut_up2 > c2 > just_get_out_of_here_2:
                     gre = shut_up2
                     s = just_get_out_of_here_2
-                    gre2 = conspiracy2
-                elif shut_up2 > just_get_out_of_here_2 > conspiracy2:
+                    gre2 = c2
+                elif shut_up2 > just_get_out_of_here_2 > c2:
                     gre = shut_up2
-                    s = conspiracy2
+                    s = c2
                     gre2 = just_get_out_of_here_2
                 elif just_get_out_of_here_2 > conspiracy2 > shut_up2:
                     gre = just_get_out_of_here_2
                     s = shut_up2
-                    gre2 = conspiracy2
+                    gre2 = c2
                 else:
                     gre = just_get_out_of_here_2
-                    s = conspiracy2
+                    s = c2
                     gre2 = shut_up2
                 then = gre / gre2 / s
                 print (then)
-        elif aarush_is_a_businessman == 3:
+        elif inp == 3:
             matrix_hcf()
-        elif aarush_is_a_businessman == 4:
+        elif inp == 4:
             say("Please enter a number:")
             s = int(input())
             s2 = math.sqrt(s)
