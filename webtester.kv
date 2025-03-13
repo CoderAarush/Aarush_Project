@@ -1,0 +1,30 @@
+<BaseWindow>:
+    url: target_url_text_field
+    response_body: response_body_text_field
+    GridLayout:
+        cols: 2
+        rows: 3
+        width: root.width
+        height: root.height
+        Label:
+            text: "URL"
+        TextInput:
+            id: target_url_text_field
+            size: 400, 45
+            text: "https://aawebproject.000webhostapp.com"
+            multiline: False
+        Label:
+            text: "Methods"
+        GridLayout:
+            cols: 3
+            rows: 3
+            Button:
+                text: "GET"
+                size_hint_y: None
+                height: 44
+                on_release: root.perform_http_requests("GET")
+        Label:
+            text: "Response Body: "
+        TextInput:
+            id: response_body_text_field
+            multiline: True

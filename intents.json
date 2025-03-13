@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "tag" : "greetings",
+      "patterns" : ["Hi there", "Hello", "Hello!", "Hi!", "Hola","Good day", "Is anyone there"],
+      "responses" : ["Hello thanks for asking", "Good to see you again", "Hi there, how can I help you?"],
+      "context" : [""]
+    },
+    {
+      "tag" : "Goodbye",
+      "patterns" : ["Bye!", "Nice chatting with you bye", "Goodbye", "Till next time"],
+      "responses" : ["Thank you sir or ma'am", "Goodbye sir or ma'am", "Nice chatting with you"],
+      "context" : [""]
+    },
+    {
+      "tag" : "Thanks",
+      "patterns" : ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses" : ["You are welcome kind user", "You're welcome", "Any time", "My pleasure"],
+      "context" : [""]
+    },
+    {
+      "tag" : "no answer",
+      "patterns" : [],
+      "responses" : ["Sorry I could not understand you", "Can you please give me more info"],
+      "context" : [""]
+    },
+    {
+      "tag" : "options",
+      "patterns" : ["How can you help me", "What can you do for me", "In what ways can you assist me", "How can you be of assistance"],
+      "responses" : ["I can help you order anything you want from Rise and Shine Bakery", "I can answer and help in your order in Rise and Shine Bakery"],
+      "context" : [""]
+    },
+    {
+      "tag" : "menu",
+      "patterns" : ["Whats on the menu", "What do you serve in the bakery", "What do you sell", "What can I order"],
+      "responses" : ["Biscuits, Vanilla cake, Rainbow cake and Cookies are on the menu", "We sell Biscuits, Vanilla cake, Rainbow cake and Cookies"]
+    },
+    {
+      "tag" : "prices",
+      "patterns" : ["How much is a cookie", "How much is a vanilla cake","How much is a rainbow cake", "How much are the biscuits"],
+      "responses" : ["Cookies are 2$", "The vanilla cake is 15$ with a cherry","Biscuits are 3$ per batch"],
+      "context" : [""]
+    },
+    {
+      "tag" : "location",
+      "patterns" : ["Where are you located", "Where is the bakery", "Can you tell me where can I reach you"],
+      "responses" : ["Rise and Shine bakery is located at 75th and Broadway in the state of Washington, USA"],
+      "context" : [""]
+    },
+    {
+      "tag" : "time",
+      "patterns" : ["When are you open", "From when to when are you open", "What days are you open"],
+      "responses" : ["We are open from 9 am to 9:30 pm from Monday to Saturday"],
+      "context" : [""]
+    },
+    {
+      "tag" : "delivery",
+      "patterns" : ["How long will delivery take", "In how much time will I receive my ordered item", "when will I get delivery"],
+      "responses" : ["You will get your order in anywhere between 6 hours - 20 minutes depending on the size of the order"],
+      "context" : [""]
+    },
+    {
+      "tag" : "payments",
+      "patterns" : ["Do you take cash", "Do you take credit card", "Do you take online transactions", "How should I pay"],
+      "responses" : ["We take payment via PayPal, Apple pay, Amazon pay, Visa cards and Master cards"],
+      "context" : [""]
+    },
+    {
+      "tag" : "problem with order",
+      "patterns" : ["There is a problem with my order", "My biscuits are melted", "My cake is not worth eating", "Your rainbow cake is the worst", "I hate your cookies"],
+      "responses" : ["You can give your feed back at https://www.yelp.com/biz/rise-and-shine-bakery-shoreline"],
+      "context" : [""]
+    }
+  ]
+}
